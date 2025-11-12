@@ -65,7 +65,7 @@ Algoritma ini terkenal karena kemampuannya menggabungkan kecepatan dan akurasi, 
 # FITUR UTAMA
 ## **1.**  Konfigurasi Waktu
     - Input durasi waktu kerja,istirahat,dan timeout
-    - Timeout diset 30 detik yang digunakan untuk meentukan kapan wajah dianggap hilang dan sistem direset ke awal
+    - Timeout diset secara flexibel yang digunakan untuk meentukan kapan wajah dianggap hilang dan sistem direset ke awal
 ## **2.**  Resolusi Gambar
     - Saat menjalankan sistem juga akan meminta untuk menggunakan resolusi yang diinginkan
 ## **3.**  Deteksi Wajah Real-Time
