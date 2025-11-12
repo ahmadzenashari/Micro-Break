@@ -40,6 +40,23 @@ Proyek ini diharapkan dapat membantu menciptakan lingkungan kerja yang lebih seh
 | 4  | Meningkatkan kesadaran pekerja terhadap pentingnya istirahat singkat untuk menjaga produktivitas kerja. |
 | 5  | Menerapkan antarmuka yang mudah digunakan melalui GUI berbasis Python Tkinter.                      |
 
+# METODE YANG DIGUNAKAN
+Metode Viola–Jones merupakan salah satu algoritma klasik yang digunakan untuk deteksi objek, terutama deteksi wajah dalam citra atau video.
+Diperkenalkan oleh Paul Viola dan Michael Jones pada tahun 2001, metode ini menjadi tonggak awal deteksi wajah real-time dengan performa yang cepat di komputer konvensional.
+Algoritma ini terkenal karena kemampuannya menggabungkan kecepatan dan akurasi, menggunakan konsep Haar-like features, integral image, AdaBoost, dan cascade classifier.
+1. Haar-like Features
+   - Mengukur perbedaan intensitas area terang dan gelap pada wajah (mata lebih gelap dari pipi).
+   - Fitur ini membantu mengenali pola khas wajah.
+2. Integral Image
+   - Mempercepat perhitungan fitur Haar dengan menjumlahkan nilai piksel secara efisien.
+   - Membuat deteksi bisa berjalan real-time.
+3. AdaBoost (Adaptive Boosting)
+   - Memilih fitur paling penting dari ribuan kandidat fitur.
+   - Menggabungkan banyak detektor sederhana menjadi satu detektor kuat.
+4. Cascade Classifier
+   - Menyaring area gambar secara bertahap.
+   - Area non-wajah cepat diabaikan, sedangkan area potensial dianalisis lebih mendalam.
+
 # ALGORITMA SISTEM
 <div align="center">
   <img src="assets/FLOWCHART.jpg" alt="DIAGRAM ALGORITMA" width="400">
