@@ -65,7 +65,7 @@ Dalam proyek Microbreak Detection System, metode Viola–Jones digunakan untuk m
 </div>
 
 # FITUR UTAMA
-## **1.**  Konfigurasi Waktu
+ **1.**  Konfigurasi Waktu
     - Input durasi waktu kerja,istirahat,dan timeout
     - Timeout diset secara flexibel yang digunakan untuk meentukan kapan wajah dianggap hilang dan sistem direset ke awal
 ## **2.**  Resolusi Gambar
