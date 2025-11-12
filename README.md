@@ -25,6 +25,9 @@ NIP: 197501272002121003
 ### 📂 LINK PRESENTASI (PPT)
 [🔗 Buka Presentasi (Canva)](https://www.canva.com/design/DAG3Do7V7E0/6Z20KcB5prVUZ3hlLEHHiw/edit?utm_content=DAG3Do7V7E0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
+### LINK YOU TUBE (DEMONSTRASI)
+https://youtu.be/2-CDum_FWJA
+
 </div>
 
 # KATA PENGANTAR
