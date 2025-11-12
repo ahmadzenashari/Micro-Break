@@ -19,6 +19,9 @@ Akhmad Hendriawan, S.T., M.T.
 
 NIP: 197501272002121003
 
+### Daftar Isi
+  - [KATA PENGANTAR](#kata-pengantar)
+
 ### 📂 LINK PRESENTASI (PPT)
 [🔗 Buka Presentasi (Canva)](https://www.canva.com/design/DAG3Do7V7E0/6Z20KcB5prVUZ3hlLEHHiw/edit?utm_content=DAG3Do7V7E0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
