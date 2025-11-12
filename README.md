@@ -2,7 +2,6 @@
 <div align="center">
   <img src="assets/COVER.png" alt="COVER PROJECT" width="500">
 </div>
-
 <div align="center">
 
 ### DI SUSUN OLEH
@@ -110,4 +109,17 @@ Dalam proyek Microbreak Detection System, metode Viola–Jones digunakan untuk m
 - Sensitif terhadap pencahayaan dan sudut wajah.  
 - Kurang efektif jika wajah miring atau tertutup sebagian.  
 - Hanya mendeteksi keberadaan wajah, tidak mengenali identitas.  
-- Performa menurun pada lingkungan ramai atau background kompleks.  
+- Performa menurun pada lingkungan ramai atau background kompleks.
+
+# Tampilan GUI
+<div align="center">
+  <img src="assets/GUI break.png" alt="COVER PROJECT" width="500">
+</div>
+<div align="center">
+
+# Tampilan Ketika Running
+<div align="center">
+  <img src="assets/Running.png" alt="COVER PROJECT" width="500">
+</div>
+<div align="center">
+
