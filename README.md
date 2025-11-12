@@ -57,6 +57,8 @@ Algoritma ini terkenal karena kemampuannya menggabungkan kecepatan dan akurasi, 
    - Menyaring area gambar secara bertahap.
    - Area non-wajah cepat diabaikan, sedangkan area potensial dianalisis lebih mendalam.
 
+Dalam proyek Microbreak Detection System, metode Viola–Jones digunakan untuk mendeteksi keberadaan wajah pengguna di depan kamera secara berkelanjutan. Ketika wajah terdeteksi, sistem mengaktifkan timer kerja (work timer), dan jika deteksi wajah hilang dalam periode tertentu, sistem menganggap pengguna sedang beristirahat (break). Dan jika timer kerja (mendeteksi wajah) selama periode tertentu maka sistem akan memberi peringatan untuk beristirahat.
+
 # ALGORITMA SISTEM
 <div align="center">
   <img src="assets/FLOWCHART.jpg" alt="DIAGRAM ALGORITMA" width="400">
