@@ -62,6 +62,23 @@ Algoritma ini terkenal karena kemampuannya menggabungkan kecepatan dan akurasi, 
   <img src="assets/FLOWCHART.jpg" alt="DIAGRAM ALGORITMA" width="400">
 </div>
 
+# FITUR UTAMA
+## **1.**  Konfigurasi Waktu
+    - Input durasi waktu kerja,istirahat,dan timeout
+    - Timeout diset 30 detik yang digunakan untuk meentukan kapan wajah            dianggap hilang dan sistem direset ke awal
+## **2.**  Resolusi Gambar
+    - Saat menjalankan sistem juga akan meminta untuk menggunakan resolusi         yang diinginkan
+## **3.**  Deteksi Wajah Real-Time
+    - Deteksi wajah menggunakan metode Haar Cascade Classifier
+    - Waktu kerja akan berjalan ketika wajah terdeteksi
+    - Waktu kerja akan berhenti ketika wajah tidak terdeteksi
+## **4.**  Sistem Kerja Waktu
+    - Sistem akan masuk mode istirahat apabila wajah tidak terdeteksi              melebihi waktu timeout 
+    - Jika wajah kembali terdeteksi sebelum timeout dilewati maka waktu akan       berjalan normal kembali
+    - Akan terdapat notifikasi waktunya istirahat setelah waktu kerja              terpenuhi
+## **5.**  Mode Selesai
+    - Setelah waktu Kerja selesai maka sistem akan kembali ke tampilan awal
+    
 # KONSEP SISTEM
 - Kamera digunakan untuk mendeteksi keberadaan wajah pekerja secara real-time.
 - Selama wajah terdeteksi → pekerja dianggap sedang bekerja.
