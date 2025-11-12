@@ -68,17 +68,17 @@ Dalam proyek Microbreak Detection System, metode Viola–Jones digunakan untuk m
  **1.**  Konfigurasi Waktu
     - Input durasi waktu kerja,istirahat,dan timeout
     - Timeout diset secara flexibel yang digunakan untuk meentukan kapan wajah dianggap hilang dan sistem direset ke awal
-## **2.**  Resolusi Gambar
+ **2.**  Resolusi Gambar
     - Saat menjalankan sistem juga akan meminta untuk menggunakan resolusi yang diinginkan
-## **3.**  Deteksi Wajah Real-Time
+ **3.**  Deteksi Wajah Real-Time
     - Deteksi wajah menggunakan metode Haar Cascade Classifier
     - Waktu kerja akan berjalan ketika wajah terdeteksi
     - Waktu kerja akan berhenti ketika wajah tidak terdeteksi
-## **4.**  Sistem Kerja Waktu
+ **4.**  Sistem Kerja Waktu
     - Sistem akan masuk mode istirahat apabila wajah tidak terdeteksi melebihi waktu timeout 
     - Jika wajah kembali terdeteksi sebelum timeout dilewati maka waktu akan berjalan normal kembali
     - Akan terdapat notifikasi waktunya istirahat setelah waktu kerja terpenuhi
-## **5.**  Mode Selesai
+ **5.**  Mode Selesai
     - Setelah waktu Kerja selesai maka sistem akan kembali ke tampilan awal
     
 # KONSEP SISTEM
