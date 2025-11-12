@@ -40,3 +40,13 @@ Proyek ini diharapkan dapat membantu menciptakan lingkungan kerja yang lebih seh
 | 5  | Menerapkan antarmuka yang mudah digunakan melalui GUI berbasis Python Tkinter.                      |
 
 # ALGORITMA SISTEM
+
+# KONSEP SISTEM
+- Kamera digunakan untuk mendeteksi keberadaan wajah pekerja secara real-time.
+- Selama wajah terdeteksi → pekerja dianggap sedang bekerja.
+- Setelah waktu kerja mencapai batas tertentu → sistem menandai selesai bekerja /   waktunya istirahat.
+- Jika wajah hilang dari kamera, sistem mulai menghitung waktu jeda (leave).
+- Jika pekerja kembali kurang dari 30 detik, waktu kerja dilanjutkan dari sebelumnya.
+- Jika pekerja kembali lebih dari 30 detik, waktu kerja di-reset dari 0 (dianggap mulai sesi kerja baru).
+- Sistem menampilkan peringatan istirahat otomatis saat durasi kerja maksimum tercapai.
+
