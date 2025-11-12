@@ -111,7 +111,7 @@ Dalam proyek Microbreak Detection System, metode Viola–Jones digunakan untuk m
 - Hanya mendeteksi keberadaan wajah, tidak mengenali identitas.  
 - Performa menurun pada lingkungan ramai atau background kompleks.
 
-# Tampilan GUI
+ # Tampilan GUI
 <div align="center">
   <img src="assets/GUI break.png" alt="COVER PROJECT" width="500">
 </div>
