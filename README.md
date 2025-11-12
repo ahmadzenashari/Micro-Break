@@ -54,3 +54,17 @@ Proyek ini diharapkan dapat membantu menciptakan lingkungan kerja yang lebih seh
 - Jika pekerja kembali lebih dari 30 detik, waktu kerja di-reset dari 0 (dianggap mulai sesi kerja baru).
 - Sistem menampilkan peringatan istirahat otomatis saat durasi kerja maksimum tercapai.
 
+## KELEBIHAN DAN KELEMAHAN METODE VIOLA–JONES
+
+### KELEBIHAN
+- Dapat mendeteksi wajah secara real-time.  
+- Cepat dan efisien dalam proses komputasi.  
+- Mudah diimplementasikan menggunakan OpenCV.  
+- Akurasi tinggi untuk wajah yang menghadap depan.  
+- Cocok untuk aplikasi sederhana seperti absensi dan pemantauan.  
+- Dapat digunakan di berbagai resolusi kamera.  
+### KELEMAHAN
+- Sensitif terhadap pencahayaan dan sudut wajah.  
+- Kurang efektif jika wajah miring atau tertutup sebagian.  
+- Hanya mendeteksi keberadaan wajah, tidak mengenali identitas.  
+- Performa menurun pada lingkungan ramai atau background kompleks.  
